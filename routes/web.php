@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\DashboardAdminController;
+use App\Http\Controllers\DashboardAdminController;
+use App\Http\Controllers\CategoryLogoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,5 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', [DashboardAdminController::class , 'dashboard']);
+Route::get('/admin/categorylogo', [CategoryLogoController::class, 'index'])
+->name('categorylogo.show');

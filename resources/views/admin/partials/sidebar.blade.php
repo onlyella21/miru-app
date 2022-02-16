@@ -22,7 +22,7 @@
     <hr class="sidebar-divider">
 
     <!-- Heading -->
-    
+
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
@@ -33,7 +33,7 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="buttons.html">Category Logo</a>
+                <a class="collapse-item" href="{{ route('categorylogo.show') }}">Category Logo</a>
                 <a class="collapse-item" href="cards.html">Logo</a>
             </div>
         </div>
@@ -49,7 +49,7 @@
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
             data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                
+
                 <a class="collapse-item" href="utilities-color.html">General</a>
                 <a class="collapse-item" href="utilities-border.html">SMTP</a>
                 <a class="collapse-item" href="utilities-animation.html">Page Header</a>

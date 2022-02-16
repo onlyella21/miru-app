@@ -37,7 +37,7 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                  @include('admin.layouts.beranda')
+                 @yield('content')
 
                 </div>
                 <!-- /.container-fluid -->
